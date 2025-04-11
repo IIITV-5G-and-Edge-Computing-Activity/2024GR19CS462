@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-env
+data:
+  # Example: Replace these with your actual .env key-value pairs.
+  PORT: ""
+  MONGO_URL: ""
+  CORS_ORIGIN: ""
+  ACCESS_TOKEN_SECRET: ""
+  REFRESH_TOKEN_SECRET: ""
+  ACCESS_TOKEN_EXPIRY: ""
+  REFRESH_TOKEN_EXPIRY: ""
+  REDIS_HOST: ""
+  REDIS_PORT: ""
+  REDIS_USERNAME: ""
+  REDIS_PASSWORD: ""
+  KAFKA_BROKER: ""
+  KAFKA_SASL_USERNAME: ""
+  KAFKA_SASL_PASSWORD: ""
+  KAFKA_SSL_CA_PATH: ""
+
+
+
+  
+  # Add other env variables as needed.

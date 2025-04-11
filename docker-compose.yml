@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  app:
+    image: tanujsaini/splitwisetest1
+    container_name: split-wise
+    env_file: 
+      - .env
+    ports:
+      - "${PORT}:${PORT}"
+    volumes:
+      - .:/app
+    command: ["npm", "start"]
+   
+  grafana:
+    image: grafana/grafana-oss
+    container_name: grafana
+    ports:
+      - "3000:3000"
+
+  prom-server:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus-config.yml:/etc/prometheus/prometheus.yml
