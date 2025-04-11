@@ -245,6 +245,10 @@ This setup enables a fully functional DevOps environment with CI/CD pipelines, K
 
 ---
 
+## SplitWise Docs
+[[SplitWise Docs]](https://drive.google.com/file/d/1MSzwo2EAAzdCn-ZKeoMNDOEGSmSKTlAk/view?usp=sharing)
+
+
 ## 🙌 Author
 
 Developed with ♥️ by Tanuj Saini  
