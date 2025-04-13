@@ -251,7 +251,7 @@ This setup enables a fully functional DevOps environment with CI/CD pipelines, K
 
 ## 🙌 Author
 
-Developed with ♥️ by Tanuj Saini  
+Developed with ♥️ by [Tanuj Saini](https://github.com/tanuj-saini) 
 Guide written by: 2024GR19CS462
 
 ---
